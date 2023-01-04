@@ -94,14 +94,14 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-l);
   font-weight: var(--fw-regular);
-  direction: rtl;
+  direction: ltr;
 }
 
 .main__container {
   width: 100%;
 }
 
-.header {
+.nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -109,6 +109,14 @@ body {
   background-color: var(--clr-neutral-900);
   color: var(--clr-neutral-100);
   padding: 1rem 2rem;
+}
+.nav span {
+  border-radius: 0.2rem;
+  cursor: default;
+}
+.nav span:hover {
+  background-color: var(--clr-primary-300);
+  color: var(--clr-neutral-900);
 }
 
 /*# sourceMappingURL=style.css.map */

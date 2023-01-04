@@ -2,13 +2,23 @@
   width: 100%;
 }
 
-.header {
+.nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   background-color: var(--clr-neutral-900);
-  color : var(--clr-neutral-100);
-  padding : 1rem 2rem;
+  color: var(--clr-neutral-100);
+  padding: 1rem 2rem;
+
+  & span {
+    border-radius: .2rem;
+    cursor: default;
+
+    &:hover {
+      background-color: var(--clr-primary-300);
+      color: var(--clr-neutral-900);
+    }
+  }
 }
