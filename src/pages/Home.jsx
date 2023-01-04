@@ -7,8 +7,10 @@ const Home = () => {
         <h2 className="nav__logo">DonuT</h2>
         <span class="material-symbols-outlined">menu</span>
       </nav>
-      <section>
-        <img src="/src/assets/annie-spratt-EACvtuV2k2E-unsplash.jpg" alt="" />
+      <section className="first__section">
+        
+            <h1>Donut</h1>
+            <p>More then 10000 flavour. best in the business since 1850.</p>
       </section>
     </div>
   );
