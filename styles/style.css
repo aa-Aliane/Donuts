@@ -9,6 +9,8 @@
   --fs-xl: 1.5rem;
   --fs-xxl: 2rem;
   --fs-xxxl: 2.5rem;
+  --fs-x4l: 3rem;
+  --fs-x5l: 4rem;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
@@ -22,6 +24,7 @@
   --s4: 3rem;
   --s5: 5rem;
   --s6: 6rem;
+  --s7: 7rem;
   --ff-primary: "Poppins", sans-serif;
   --default-radius: 0.4rem;
   --duration-1: 0.1s;
@@ -111,6 +114,14 @@
 
 .fs-xxxl {
   font-size: var(--fs-xxxl);
+}
+
+.fs-x4l {
+  font-size: var(--fs-x4l);
+}
+
+.fs-x5l {
+  font-size: var(--fs-x5l);
 }
 
 .fw-light {
@@ -417,6 +428,46 @@
   margin-right: 6rem;
 }
 
+.p-7 {
+  padding: 7rem;
+}
+
+.pt-7 {
+  padding-top: 7rem;
+}
+
+.pb-7 {
+  padding-bottom: 7rem;
+}
+
+.pl-7 {
+  padding-left: 7rem;
+}
+
+.pr-7 {
+  padding-right: 7rem;
+}
+
+.m-7 {
+  margin: 7rem;
+}
+
+.mt-7 {
+  margin-top: 7rem;
+}
+
+.mb-7 {
+  margin-bottom: 7rem;
+}
+
+.ml-7 {
+  margin-left: 7rem;
+}
+
+.mr-7 {
+  margin-right: 7rem;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -527,10 +578,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10rem 2rem 2rem;
+  padding: 10rem 2rem 4rem;
 }
 .first__section h1, .first__section p {
   color: var(--clr-neutral-100);
+}
+.first__section h1 {
+  display: flex;
+  align-items: center;
+}
+.first__section h1 span {
+  text-transform: uppercase;
 }
 .first__section__socials {
   display: flex;
