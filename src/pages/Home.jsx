@@ -8,9 +8,13 @@ const Home = () => {
         <span class="material-symbols-outlined">menu</span>
       </nav>
       <section className="first__section">
-        
-            <h1>Donut</h1>
-            <p>More then 10000 flavour. best in the business since 1850.</p>
+        <h1 className="fs-xxxl">Donut</h1>
+        <p>More then 10000 flavour. best in the business since 1850.</p>
+        <div className="first__section__socials">
+          <img src="src/assets/instagram.png" alt="#" />
+          <img src="src/assets/facebook.png" alt="#" />
+          <img src="src/assets/twitter.png" alt="#" />
+        </div>
       </section>
     </div>
   );

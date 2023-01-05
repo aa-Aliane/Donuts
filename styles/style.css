@@ -125,14 +125,19 @@ body {
   width: 100%;
   height: 60vh;
   background-size: cover;
-  background-image: url("../../src/assets/annie-spratt-EACvtuV2k2E-unsplash.jpg");
+  background-image: url("../../src/assets/bg1.png");
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 10rem 2rem;
+  justify-content: space-between;
+  padding: 10rem 2rem 2rem;
 }
 .first__section h1, .first__section p {
   color: var(--clr-neutral-100);
+}
+.first__section__socials {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
