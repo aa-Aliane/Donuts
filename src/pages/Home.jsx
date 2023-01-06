@@ -1,6 +1,7 @@
 import React from "react";
-import HomeS1 from "../components/HomeS1";
-import HomeS2 from "../components/HomeS2";
+import { Footer } from "../components/Footer";
+import {HomeS1} from "../components/HomeS1";
+import {HomeS2} from "../components/HomeS2";
 import { HomeS3 } from "../components/HomeS3";
 import { HomeS4 } from "../components/HomeS4";
 import { HomeS5 } from "../components/HomeS5";
@@ -21,6 +22,7 @@ const Home = () => {
       <HomeS5 />
       <HomeS6 />
       <HomeS7 />
+      <Footer />
     </div>
   );
 };

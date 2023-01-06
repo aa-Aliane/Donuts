@@ -2,7 +2,7 @@ import React from "react";
 import MenuItem from "./MenuItem";
 import { menu } from "../api/api";
 
-const HomeS2 = () => {
+export const HomeS2 = () => {
   return (
     <div className="home-s2">
       <h4 className="home-s2__title">little bits</h4>
@@ -22,5 +22,3 @@ const HomeS2 = () => {
     </div>
   );
 };
-
-export default HomeS2;

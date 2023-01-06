@@ -1,6 +1,6 @@
 import React from "react";
 
-const HomeS1 = () => {
+export const HomeS1 = () => {
   return (
     <section className="home-s1">
       <h1 className="fs-x4l">
@@ -15,5 +15,3 @@ const HomeS1 = () => {
     </section>
   );
 };
-
-export default HomeS1;
