@@ -1,4 +1,6 @@
 import React from "react";
+import HomeS1 from "../components/HomeS1";
+import HomeS2 from "../components/HomeS2";
 
 const Home = () => {
   return (
@@ -7,17 +9,8 @@ const Home = () => {
         <h2 className="nav__logo">DonuT</h2>
         <span class="material-symbols-outlined">menu</span>
       </nav>
-      <section className="first__section">
-        <h1 className="fs-x4l">
-          Donu<span className="fs-x5l">t</span>
-        </h1>
-        <p>More then 10000 flavour. best in the business since 1850.</p>
-        <div className="first__section__socials">
-          <img src="src/assets/instagram.png" alt="#" />
-          <img src="src/assets/facebook.png" alt="#" />
-          <img src="src/assets/twitter.png" alt="#" />
-        </div>
-      </section>
+      <HomeS1 />
+      <HomeS2 />
     </div>
   );
 };

@@ -6,4 +6,8 @@
   &__title {
     text-transform: capitalize;
   }
+
+  &__menu {
+    display: grid;
+  }
 }

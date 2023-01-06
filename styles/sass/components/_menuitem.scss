@@ -1,0 +1,15 @@
+.menu-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: .5rem;
+  font-size: var(--fs-m);
+
+  &__item {
+    grid-column: 1 / 2;
+    font-weight: var(--fw-semi-bold);
+  }
+  &__price {
+    text-align: right;
+    font-weight: var(--fw-medium);
+  }
+}
