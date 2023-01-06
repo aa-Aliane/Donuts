@@ -1,0 +1,21 @@
+.home-s5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  &__section {
+    grid-column: 1 / 2;
+    & p {
+      font-size: var(--fs-m);
+    }
+  }
+
+  &__img {
+    display: flex;
+    align-items: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+
+
+}
