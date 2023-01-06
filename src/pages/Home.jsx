@@ -5,6 +5,7 @@ import { HomeS3 } from "../components/HomeS3";
 import { HomeS4 } from "../components/HomeS4";
 import { HomeS5 } from "../components/HomeS5";
 import { HomeS6 } from "../components/HomeS6";
+import { HomeS7 } from "../components/HomeS7";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <HomeS4 />
       <HomeS5 />
       <HomeS6 />
+      <HomeS7 />
     </div>
   );
 };

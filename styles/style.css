@@ -555,7 +555,7 @@ select {
 body {
   background-color: var(--clr-neutral-200);
   font-family: var(--ff-primary);
-  font-size: var(--fs-l);
+  font-size: var(--fs-m);
   font-weight: var(--fw-regular);
   direction: ltr;
   position: relative;
@@ -681,6 +681,21 @@ body {
 }
 .home-s6__social {
   grid-column: 1/3;
+}
+
+.home-s7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.home-s7 h4,
+.home-s7 p {
+  max-width: 70%;
+}
+.home-s7 button {
+  width: 70%;
 }
 
 .menu-item {
