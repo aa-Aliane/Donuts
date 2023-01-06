@@ -18,6 +18,7 @@ const HomeS2 = () => {
           );
         })}
       </div>
+      <button className="home-s2__view-menu btn dark">view menu</button>
     </div>
   );
 };

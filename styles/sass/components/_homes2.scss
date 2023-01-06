@@ -2,12 +2,22 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   &__title {
+    width : 100%;
     text-transform: capitalize;
   }
 
   &__menu {
-    display: grid;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding : 1rem 0;
+    gap : 2rem;
+  }
+
+  &__view-menu {
+    width : 80%;
   }
 }
