@@ -1,6 +1,7 @@
 :root {
   --clr-primary-200: #eee9e2;
   --clr-primary-300: #dad8d3;
+  --clr-primary-400: #bcc5cb;
   --clr-neutral-100: #fff;
   --clr-neutral-900: #181e21;
   --fs-s: 0.8rem;
@@ -53,6 +54,19 @@
 
 .border-primary-300 {
   box-shadow: 0 0 0.5rem 0.5rem var(--clr-primary-300);
+  border-radius: 0.3rem;
+}
+
+.clr-primary-400 {
+  background-color: var(--clr-primary-400);
+}
+
+.text-primary-400 {
+  color: var(--clr-primary-400);
+}
+
+.border-primary-400 {
+  box-shadow: 0 0 0.5rem 0.5rem var(--clr-primary-400);
   border-radius: 0.3rem;
 }
 
@@ -615,6 +629,27 @@ body {
 }
 .home-s2__view-menu {
   width: 80%;
+}
+
+.home-s4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  background-color: var(--clr-primary-400);
+}
+.home-s4 img,
+.home-s4 __content {
+  max-width: 70%;
+}
+.home-s4__content {
+  text-align: center;
+}
+.home-s4__content p {
+  margin-top: 1rem;
+  font-size: var(--fs-m);
+  width: 30ch;
 }
 
 .menu-item {
