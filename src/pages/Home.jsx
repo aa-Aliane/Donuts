@@ -1,6 +1,7 @@
 import React from "react";
 import HomeS1 from "../components/HomeS1";
 import HomeS2 from "../components/HomeS2";
+import { HomeS3 } from "../components/HomeS3";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       </nav>
       <HomeS1 />
       <HomeS2 />
+      <HomeS3 />
     </div>
   );
 };

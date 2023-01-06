@@ -597,17 +597,17 @@ body {
 }
 
 .home-s2 {
-  padding: 2rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 .home-s2__title {
   width: 100%;
   text-transform: capitalize;
 }
 .home-s2__menu {
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
